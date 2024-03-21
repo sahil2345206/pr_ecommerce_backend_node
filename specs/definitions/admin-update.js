@@ -1,0 +1,30 @@
+module.exports = [{
+    name: "updateUser",
+    properties: {
+        // fullName:{ type: "string"},
+        // phoneNumber: { type: Number, },
+        // position: { type: "string", },
+        // email: { type: "string", },
+        // status: { type: "string"},
+        // salary: { type: "number", },
+        // DOB: { type: "date", },
+        // address: { type: "string", },
+        // password: { type: "string", },
+        // college: { type: "string" },
+        // course: { type: "string" },
+        // trainingPeriod: { type: "string" },
+        // sessionStarted: { type: "string" },
+        // courseFee: { type: "string" },
+        // submittedFee: { type: "string" },
+        // pending: { type: "string" },
+        // placementStatus: { type: "string" },
+        name: { type: "string"},
+        email: { type: "string"},
+        college: { type: "string"},
+        phoneNumber: {type: "number"},
+        lastQualification: {type: "string"},
+        interestedIn: {type: "string"},
+        password: {type: "string"}
+
+    },
+}];
